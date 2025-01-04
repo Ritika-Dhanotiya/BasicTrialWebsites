@@ -1,9 +1,0 @@
-table ,th,td{
-    border:2px solid black;
-    border-radius: 20px ;
-    border-style: dotted;
-    border-collapse: collapse;
-    border-color: rgb(0,250,0);
-    color:rgba(250,0,0,0.5);
-
-}
