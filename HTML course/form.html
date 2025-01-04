@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <h1>Form Tag</h1>
+    <p>The &lt;form&gt; tag is used to create an HTML form for user input.</p>
+    <p>The &lt;input&gt; HTML element is used to create interactive controls 
+        for web based forms to accept data from the user. we must write inside the tag.
+    </p>
+    <pre>
+        &lt;input type="text" name="username"&gt;
+    </pre>
+    <h2>regestration form</h2>
+    <form >
+        <div>
+            <label for="username">USERNAME</label>
+            <input type="text" id="username"/>
+        </div>
+        <div>
+            <label for="email">Enter your email</label>
+            <input type="text" id="email"/>
+        </div>
+        <div>
+            <label for="textarea">Message</label>
+            <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <input type="submit" value="submit"/>
+    </form>
+    <br>
+    <h1>html form</h1>
+    <form>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="number">number</label>
+            <input type="number" id="number" max="5" min="1" value="1">
+        </div>
+        <div>
+            <label for="gender">gender</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+
+        </div>
+        <div>
+            <label for="hobbies">fav hobbies</label>
+            <input type="checkbox" name="gender" value="cricket"> cricket
+            <input type="checkbox" name="gender" value="volleyboll"> volleyboll
+
+        </div>
+        <div>
+            <label for="country">Fav country</label>
+            <select name="country" id="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="UK">uk</option>
+            </select>
+        </div>
+        <div>
+            <label for="country">fav country</label>
+            <input type="text" id="country" name="country" list="country"/>
+            <datalist id="countries">
+                <option value="USK">USK</option>
+                <option value="CANADA">CANADA</option>
+                <option value="AUSTRALIA">AUSTRALIA</option>
+                <option value="UK">UK</option>
+            </datalist>
+        </div>
+    </form>
+    <br>
+    <a href="semantic.html"><button>next</button></a>
+</body>
+</html>
