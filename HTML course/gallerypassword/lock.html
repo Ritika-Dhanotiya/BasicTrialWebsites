@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery lock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="password-container">
+        <label for="password">Enter Password:</label>
+        <input type="password" id="password">
+        <button onclick="checkPassword()">Submit</button>
+        <p id="error-message"></p>
+    </div>
+
+    <div id="gallery" style="display:none;">
+        <img src="pink.jpg">
+        <img src="grass.jpg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
