@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="range" >Range:</label>
+            <input type="range" name="volume" min="0" max="100" value="80"/>
+
+        </div>
+        <div>
+            <label for="birthdate">birthdate:</label>
+            <input type="date" name="birthdate"/>
+        </div>
+        <div>
+            <label for="appointmentime">appointmentime</label>
+            <input type="time" name="appointmentime"/>
+            
+        </div>
+       <div>
+        <label for="website">website:</label>
+        <input type="url" name="website " placeholder="enter website url"/>
+       </div>
+       <br>
+       <div>
+        <label for="searchQuery">searchQuery:</label>
+        <input type="search" name="searchQuery" placeholder="search........"/>
+       </div>
+       <br>
+       <div>
+        <label for="expiryDate">Month and Year:</label>
+        <input type="month" name="expiryDate"/>
+       </div>
+       <br>
+
+       <h1>total kitna week hai 2024 ma</h1>
+       <div>
+        <label for="week">vacationWeek:</label>
+        <input type="week" name="vacationWeek"/>
+
+       </div>
+    </form>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>
+                personal information
+            </legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="enter name"/>
+
+            </div>
+            <div>
+                <label for="gender">gender:</label>
+                <input type="radio" value="male" name="gender"/> Male:
+                <input type="radio" value="female" name="gender"/>Female:
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

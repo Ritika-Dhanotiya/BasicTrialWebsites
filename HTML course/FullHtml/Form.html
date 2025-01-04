@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+</head>
+<body>
+    <h1> create form using form tag </h1>
+    <form>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" />
+        </div>
+        <div>
+            <label for="email">enter your email</label>
+            <input type="email" id="email " />
+            
+        </div>
+        <div>
+            <label for="textarea">Message</label>
+            <textarea name="" placeholder="enter your comments" id="textarea" cols="30" rows="10">
+
+            </textarea>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password"/>
+        </div>
+        <br>
+        <div>
+            <label for="number"> mobile Number</label>
+            <input type="number" id="number" max="10"/>
+        </div>
+        <br>
+        <div>
+            <label for="gender" >Gender</label>
+            <input type="radio" value="" name="gender"> Male
+            <input type="radio" value="" name="gender"> Female
+        </div>
+        <br>
+        <div>
+            <label for="hobbies">hobbies</label>
+            <input type="checkbox" name="interest" value="music"/> music
+            <input type="checkbox" name="interest" value="footbol"/>footbol
+
+        </div>
+        <div>
+            <label for="counntry">your country</label>
+            <select name="country" id="country">
+                <option value="USA">USA</option>
+                <option value="USA">USA</option>
+                <option value="USA">USA</option>
+                <option value="USA">USA</option>
+                <option value="USA">USA</option>
+                <option value="USA">USA</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="country">country</label>
+            <input type="text" id="country" name="country" list="countries"/>
+            <datalist id="countries">
+                <option value="USA"></option>
+                <option value="USA"></option>
+                <option value="USA"></option>
+                <option value="USA"></option>
+                <option value="USA"></option>
+            </datalist>
+        </div>
+        <button type="submit">Submit</button>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

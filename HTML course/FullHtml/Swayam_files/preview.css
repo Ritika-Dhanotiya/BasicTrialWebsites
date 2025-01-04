@@ -1,0 +1,159 @@
+.container{
+  letter-spacing: -0.01px;
+}
+.previewContent span.profileCollege {
+  font-size: 16px;
+  color: #28293d !important;
+}
+
+.courseTitle {
+  color: #28293d !important;
+  font-family: Roboto-Medium;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 38px;
+  letter-spacing: -0.02px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.instructorName{
+  font-size:14px;
+  line-height: 24px;
+}
+
+div.breadcrumb,
+div.breadcrumb a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-top: 0;
+}
+
+div.breadcrumb a {
+  margin-left: 0;
+}
+
+div.breadcrumb a:hover {
+  font-size: 16px;
+  color: #000000;
+}
+
+.previewCourseBox {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
+  padding-top: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+div.previewTitle {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: -0.02px;
+  font-family: Roboto-Medium;
+  color: #28293d;
+}
+
+.previewContent,
+.previewContent div,
+.previewContent div,
+.previewContent span,
+.previewContent p {
+  font-family: Roboto-Regular !important;
+  font-size: 14px !important;
+  color: #555770 !important;
+}
+
+.breadcrumb {
+  margin-bottom: 0 !important;
+}
+
+li.summary_category {
+  line-height: 25px;
+  margin: 10px 0;
+  list-style-type: circle;
+}
+
+.custom_preview_info_text_css{
+    line-height: 25px;
+    margin: 5px 0;
+}
+
+table td{
+  font-size: 14px !important;
+  line-height: 32px !important;
+}
+
+table.previewContent td:nth-child(2){
+  padding-left: 20px;
+}
+
+button.joinCourse {
+  margin-top: 10px !important;
+  margin-right: 0px !important;
+  font-size: 16px;
+  text-transform: none;
+}
+
+div.learnerEnrolled {
+  color: #D73E0F;
+  line-height: 24px;
+  padding: 15px 0 30px 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button.fdpCourse {
+  background: #e0e5ec !important;
+  color: #28293D !important;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  pointer-events: none;
+}
+
+@media (max-width: 767px) {
+  table{
+    width: 100% !important;
+  }
+  button.fdpCourse{
+    margin-left: -10px;
+  }
+  .previewContent span{
+    white-space: normal !important;
+  }
+}
+
+.visitorPart {
+    text-align: center;
+    border: 1px solid;
+    margin-bottom:0px;
+    border-radius: 6px;
+    background: #fff;
+    box-sizing:border-box;
+    width:120px;
+    height:80px;
+    justify-content:center;
+    display:none;
+}
+
+.visitorPart h4 {
+    margin-top:0px;
+    background:  #D73E0F;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 8px ;
+    color: #fff;
+}
+
+.visitorPart span {
+    padding: 0px 0;
+    color: #D73E0F;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+}
+
